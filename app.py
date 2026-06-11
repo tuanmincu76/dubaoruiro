@@ -11,8 +11,8 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # 1. CẤU HÌNH TRANG WEB STREAMLIT (Lệnh đầu tiên của app)
 st.set_page_config(
     layout="wide",
-    page_title="Hệ Thống Phát Hiện Giao Dịch Gian Lận",
-    page_icon="🛡️"
+    page_title="Hệ thống phát hiện gian lận tại Agribank",
+    page_icon="❤️"
 )
 
 # 2. IMPORT & CÁC HÀM CACHE DÙNG CHUNG
@@ -90,7 +90,7 @@ with st.sidebar:
 
 
 # 4. HEADER — VÙNG ĐỊNH HƯỚNG
-st.title("🛡️ Hệ Thống Phát Hiện Giao Dịch Gian Lận & Rủi Ro")
+st.title("😊 Hệ thống học máy phát hiện giao dịch gian lân tại Agribank 😊")
 st.caption("Ứng dụng phân tích dữ liệu giao dịch và dự báo khả năng gian lận của khách hàng dựa trên nền tảng học máy.")
 
 if uploaded_file is None:
